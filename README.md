@@ -1,4 +1,6 @@
-# to-spam-or-not-to-spam
+# No phishing allowed: Detecting spear phishing attacks using deep learning
+
+## [Paper](paper.md)
 
 ## Pre-reads
 
