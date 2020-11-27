@@ -10,7 +10,13 @@ The focus of this project will be on email phishing attacks. Symantec released a
 
 ## 3 Approach
 
+The classification task is to identify whether or not an email is phishy or ham.
+
 ### 3.1 Feature Identification
+
+One key idea behind text classification is document representation. Our initial approach includes a simple CountVectorizer and a TF-IDF Vectorizer. We process an email document and pass the counts/scores of the vocab into our classifier.
+
+We can take this a step further and represent our document as a series of "word vectors" that embed semantic meaning (using some probabilistic technique). Creating word vectors is the process of taking a large corpus of text and creating a vector for each word such that words that share common contexts in the corpus are located in close proximity to one another in the vector space.
 
 ### 3.2 Traditional ML vs Deep Learning
 
