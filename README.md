@@ -16,6 +16,16 @@ A simple approach would be to pass in each word as an integer representing the `
 
 One caveat to note is that word2vec/doc2vec can perform worse than a traditional count/if-idf vectorizer because of a small training corpus.
 
+## terminology
+
+* batch = a chunk of the entire dataset
+* epoch = when an ENTIRE dataset is passed forward and backward through the neural network only ONCE
+* iterations = number of batches needed to complete one epoch
+
+Thus the number of batches is equal to number of iterations for one epoch.
+
+Let’s say we have 2000 training examples that we are going to use. If we divide the dataset of 2000 examples into batches of 500, then it will take 4 iterations to complete 1 epoch.
+
 ## Setup
 
 You will need `pipenv` to install the dependencies.
