@@ -1,4 +1,4 @@
-# No phishing allowed: Detecting spear phishing attacks using deep learning
+# No Phishing Allowed: Detecting Spear Phishing Attacks using Deep Learning
 
 ## [Paper](paper.md)
 
