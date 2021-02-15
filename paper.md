@@ -84,9 +84,7 @@ high-level features from simple data, i.e., to disentangle and winnow the factor
 of variation in the NN input. This intuition of NN structure makes NNs suitable
 for the task of representation learning, or automatic feature identification.
 Recurrent Neural Networks (RNNs), the deepest of all learners, are a family of
-NNs specialised for processing sequential data. Like Markov chain models, RNN
-Catching the Phish 5
-have the advantage of processing data in sequence, thus accounting for the order
+NNs specialised for processing sequential data. Like Markov chain models, RNNs have the advantage of processing data in sequence, thus accounting for the order
 of data. The input text is usually abstracted to a sequence of characters, words
 or phrases. Undoubtedly, the order of words is valuable in language modelling.
 RNNs form the backbone of current state-of-the-art language models, so an RNN

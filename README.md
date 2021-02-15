@@ -4,9 +4,9 @@
 
 ## Pre-reads
 
-https://stackoverflow.com/questions/10059594/a-simple-explanation-of-naive-bayes-classification?rq=1
-https://stackoverflow.com/questions/37405617/how-to-use-tf-idf-with-naive-bayes
-https://stats.stackexchange.com/questions/58564/help-me-understand-bayesian-prior-and-posterior-distributions
+* [simple explanation of naive bayes classification](https://stackoverflow.com/questions/10059594/a-simple-explanation-of-naive-bayes-classification)
+* [using tfidf with naive bayes](https://stackoverflow.com/questions/37405617/how-to-use-tf-idf-with-naive-bayes)
+* [understanding bayesian prior and posterior distributions](https://stats.stackexchange.com/questions/58564/help-me-understand-bayesian-prior-and-posterior-distributions)
 
 One key idea behind text classification is document representation. Our initial approach includes a simple CountVectorizer and a TF-IDF Vectorizer. We process an email document and pass the counts/scores of the vocab into our classifier.
 
@@ -16,7 +16,7 @@ A simple approach would be to pass in each word as an integer representing the `
 
 One caveat to note is that word2vec/doc2vec can perform worse than a traditional count/if-idf vectorizer because of a small training corpus.
 
-## terminology
+## Terminology
 
 * batch = a chunk of the entire dataset
 * epoch = when an ENTIRE dataset is passed forward and backward through the neural network only ONCE
@@ -54,3 +54,7 @@ Currently exporting xgboost models in their model IO bin format and any other sk
 * [stackoverflow question/example](https://stackoverflow.com/questions/44560823/generate-pmml-for-text-classification-pipeline-in-python)
 * [converting sklearn models into pmml sometimes takes days if you don't bound the number of features](https://github.com/jpmml/sklearn2pmml/issues/88)
 * [also cannot use l2 normalization at the time of this issue report](https://github.com/jpmml/jpmml-sklearn/issues/28)
+
+## Similar Work
+
+* [converting mbox to text corpus and then running it through phishing detection algorithms](https://github.com/diegoocampoh/MachineLearningPhishing)
